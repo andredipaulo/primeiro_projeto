@@ -6,22 +6,62 @@
 </head>
 <body>
 
-    <a href="index.html"> Home </a>
-    /
-    <a href="contato.html"> Página de contato </a>
-    /
-    <a href="tabelas.html"> Página de tabelas </a>
-    /
-    <a href="formulario.html"> Cadastro </a>
-    /
-    <a href="caracteres_especiais.html"> Caracteres Especiais </a>
+    <h2>Login</h2>
+    
+    <form action="processa.php">
+        
+        Login:<br>
+        <input type="text" name="login"><br>
+        
+        Senha:<br>
+        <input type="password" name="senha"><br>
+        <br>
+        
+        <input type="button" value="Logar">
+
+    </form>
+
+    <form>
+        <h2>Cadastre-se</h2>
+
+        Login:<br>
+        <input type="text" name="login"><br>
+        <br>
+
+        Sexo: <br>
+        <input type="radio" name="sexo" value="M"> Masculino <br>
+        <input type="radio" name="sexo" value="F"> Feminino <br> 
+
+        <br>
+        Interesses<br>
+        <input type="checkbox" name="interesses">Futebol<br>
+        <input type="checkbox" name="interesses">Cursos<br>
+        <input type="checkbox" name="interesses">Moda<br>
+        <br>
+
+        Estado<br>
+        <select name="estado">
+            <option value="sp">SP</option>
+            <option value="mg">MG</option>
+            <option value="go">GO</option>
+        </select>
+
+        <br>
+        <br>
+        Observações: <br>
+        <textarea name="texto"></textarea>
+        <br>
+
+        <input type="submit" name="" value="Cadastrar">
+    </form>
+
+    <h2>Caracteres Especiais</h2>
+    home - quem somos - contato
+    <br>
+    &nbsp;
+    &lt;Andre&gt;
 
 
-    <h2>Página Principal</h2>
-
-    <p> Texto1 = sajdflkjsadl;fja; lsfadslkfasf jaskdhfl kjasfa </p>
-    <p> Texto2 = ZZahjak sahfkjasl hjklasfhadls fhadskljh  sajdflkjsadl;fja; lsfadslkfasf jaskdhfl kjasfa </p>
-    <p> Texto3 = sajdflkjsadl;fja; lsfadslkfasf jaskdhfl kasdfsadjfsad fhalsk jasfa </p>
 
     
 </body>
